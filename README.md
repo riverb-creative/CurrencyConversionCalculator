@@ -28,12 +28,13 @@
 <h2>Program Walkthrough:</h2>
 
 
-<p>The following image shows the front page of the Currency Conversion Calculator</p>
-<img alt="" src=""/>
+<p>The following image shows the front page of the Currency Conversion Calculator where a user can enter an amount of USD, CAD, or JPY to be converted to three different currencies.</p>
+<img alt="screenshot of front page of currency calculator" src="images/ccc1.jpg"/>
+<br />
 <br />
 
 <p>As an example I entered 20 USD to be converted to JPY and in return my new currency is 2982.60 JPY</p>
-<img alt="" src=""/>
+<img alt="screenshot of USD converted to JPY through currency calculator" src="images/ccc2.jpg"/>
 
 
 <!--

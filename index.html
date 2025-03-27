@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Currency Conversion Calculator</title>
+    </head>
+    <body>
+        <h1>Currency Conversion Calculator</h1>
+        <hr>
+        <form>
+            <h3>Calculate your USD to any of these currencies!</h3>
+            <label for="usd">($) USD</label><br>
+                <input type="text" id="usd" name="usd">
+
+            <br>
+            <br>
+            
+            <label for="changeUSD">Convert USD (United States Dollar) to:</label>
+                <select id="changeUSD" name="changeUSD">
+                    <option value="">Please select a currency</option>
+                    <option value="0.96">(€) EUR | Euro</option>
+                    <option value="1.42">($) CAD | Canadian Dollar</option>
+                    <option value="149.13">(¥) JPY | Japanese Yen</option>
+                </select>
+    
+                <p id="pUSD"></p>
+        </form>
+
+        <form>
+            <br>
+            <hr>
+            <br>
+            <h3>Calculate your CAD to any of these currencies!</h3>
+            <label for="cad">($) CAD</label><br>
+                <input type="text" id="cad" name="cad">
+
+            <br>
+            <br>
+
+            <label for="changeCAD">Convert CAD (Canadian Dollar) to:</label>
+                <select id="changeCAD" name="changeCAD">
+                    <option value="">Please select a currency</option>
+                    <option value="0.56">(£) GBP | Great Britain Pound</option>
+                    <option value="1.11">($) AUD | Australian Dollar</option>
+                    <option value="97.70">(kr) ISK | Icelandic Króna</option>
+                </select>
+                
+                <p id="pCAD"></p>
+        </form>
+
+        <form>
+            <br>
+            <hr>
+            <br>
+            <h3>Calculate your JPY to any of these currencies!</h3>
+            <label for="jpy">(¥) JPY</label><br>
+                <input type="text" id="jpy" name="jpy">
+
+            <br>
+            <br>
+
+            <label for="changeJPY">Convert JPY (Japanese Yen) to:</label>
+                <select id="changeJPY" name="changeJPY">
+                    <option value="">Please select a currency</option>
+                    <option value="1.40">($) GYD | Guyanese Dollar</option>
+                    <option value="0.58">(₹) INR | Indian Rupee</option>
+                    <option value="0.02">($) FJD | Fijian Dollar</option>
+                </select>
+                
+                <p id="pJPY"></p>
+        </form>
+        
+        
+        
+    </body>
+    <script src="js/script.js"></script>
+</html>
